@@ -124,6 +124,10 @@ body {
   min-width: 100%;
 }
 
+a{
+  text-decoration: none;
+}
+
 @media(min-width: 40em){
   body {
     margin-top: var(--sz-1600);
@@ -206,7 +210,7 @@ ul, ol{
 }
 
 .nutrition-facts > div {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--clr-neutral-200);
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
